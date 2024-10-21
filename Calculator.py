@@ -37,6 +37,9 @@ def calculator(num1, num2, operator):
         print(f"The result is: {result}")
     elif operator == "-":
         result = num1 - num2
+
+        # Function implementation here ...
+        
         print(f"The result is: {result}")
     elif operator == "*":
         result = num1 * num2
@@ -60,7 +63,6 @@ def calculator(num1, num2, operator):
         result = num1 <= num2
         print(f"The result is: {result}")
 
-    # Function implementation here ...
 
     else:
         print("Invalid operator.")
